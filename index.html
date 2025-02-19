@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <div class="hero_area">
+  <div id="home" class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="header_top">
@@ -67,17 +67,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link" href="">Home</a>
+                  <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="">Contact Us</a>
+                  <a class="nav-link" href="#message">Message Us</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact Us</a>
+                </li>                
               </ul>
             </div>
           </nav>
@@ -164,7 +167,7 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding-bottom">
+  <section id="about" class="about_section layout_padding-bottom">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-6">
@@ -218,7 +221,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section id="services" class="service_section layout_padding">
     <div class="container ">
       <div class="heading_container heading_center">
         <h2> Our Services </h2>
@@ -287,11 +290,14 @@
           What Our Clients Say
         </h2>
       </div>
-      <div class="carousel-wrap layout_padding2-top ">
+      <div class="carousel-wrap">
         <div class="owl-carousel">
           <div class="item">
             <div class="box">
               <div class="client_id">
+                <div class="img-box">
+                  <img src="images/client-1.jpg" alt="">
+                </div>
                 <div class="client_detail">
                   <div class="client_info">
                     <h6>
@@ -394,11 +400,11 @@
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding">
+  <section id="message" class="contact_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="text-center">
-          Contact Us
+          Message Us
         </h2>
       </div>
       <form action="">
@@ -427,7 +433,7 @@
 
 
   <!-- info section -->
-  <section class="info_section ">
+  <section id="footer" class="info_section ">
     <div class="container">
       <h4>
         Get In Touch
