@@ -1,6 +1,10 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+    .contact_section form {
+      width: 60%;
+    }
+}
 
 @media (max-width: 992px) {
     .hero_area {
@@ -32,7 +36,10 @@
         transform: none;
         padding: 90px 0;
     }
-
+    
+    .contact_section form {
+        width: 70%;
+    }
 
 }
 
@@ -84,10 +91,50 @@
         height: 90%;
         top: 25px;
     }
+    
+    .navbar-brand {
+        font-size: 18px;
+        margin-left: -10px;
+    }
+
+    .navbar-brand .logo {
+        width: 50px;
+    }
+    
+    .contact_section form {
+        width: 80%;
+    }
+    
+    .slider_section .detail-box p {
+        font-size: 17px;
+    }
+    
+    .slider_section .detail-box h1 {
+      font-size: 40px;
+    }
+    
+    p {
+      font-size: 17px !important;
+    }
+
 
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+  
+    .contact_section form {
+        width: 90%;
+    }
+    
+    .hidden-mail {
+      display: none;
+    }
+    
+    .header_section .header_top .contact_nav {
+      justify-content: center;
+    }
+
+}
 
 @media (max-width: 480px) {}
 
