@@ -10,6 +10,8 @@ p {
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 28px;
+  text-align: justify;
+  word-break: break-all;
 }
 
 h1, h2 {
@@ -544,6 +546,8 @@ a:focus {
 
 .service_section .box .detail-box p {
   margin: 0;
+  text-align: center;
+  word-break: normal;
 }
 
 .service_section .box .img-box img {
