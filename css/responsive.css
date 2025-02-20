@@ -103,7 +103,7 @@
     }
 
     .navbar-brand .logo {
-        width: 50px;
+        width: 40px;
     }
     
     .contact_section form {
@@ -137,10 +137,6 @@
     
     .hidden-mail {
       display: none;
-    }
-    
-    .header_section .header_top .contact_nav {
-      justify-content: center;
     }
     
     a.top-nav-link {
