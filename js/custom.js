@@ -33,18 +33,19 @@ $(".owl-carousel").owlCarousel({
 
 
 // scroll event and control
-let nav = document.querySelector("div.top-navbar-nav");
+let nav = document.querySelector(".top-navbar-nav");
 
-document.addEventListener("scroll", e => {
-  let scroll = e.scrollHeight;
-  
-  if (scroll > 400) {
+document.addEventListener("scroll", () => {
+  let scroll = window.scrollY; 
+
+  if (scroll > 200) {
     nav.style.display = "flex";
-  }
-  else {
+  } else {
     nav.style.display = "none";
   }
-})
+  
+});
+
 
 
 // form submition and control
@@ -54,7 +55,7 @@ let sentInfo = document.querySelector(".sent");
 let contactCont = document.querySelector(".contact-us-content");
 
 
-let formAddress = "https://docs.google.com/forms/d/e/1FAIpQLSdvoRWy88bbSeutG9Jv_AtYyFGhZDlT8sevI7K5p58zJdfpjA/formResponse";
+let formAddress = "https://docs.google.com/forms/d/e/1FAIpQLSdvoRWy88bbSeutG9JvT8sevI7K5p58zJdfpjA/formResponse";
 let success = `
 <span class="star"> &#10042 </span>
 <span>Thanks, we receive your message <span>

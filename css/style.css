@@ -725,7 +725,7 @@ a:focus {
 }
 
 .contact_section p.sent {
-  display: none;
+  visibility: hidden;
 }
 
 @keyframes loading {
