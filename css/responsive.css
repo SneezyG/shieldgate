@@ -40,6 +40,11 @@
     .contact_section form {
         width: 70%;
     }
+    
+    a.top-nav-link {
+      padding: 0 30px;
+    }
+    
 
 }
 
@@ -116,7 +121,11 @@
     p {
       font-size: 17px !important;
     }
-
+    
+    a.top-nav-link {
+      padding: 0 20px;
+    }
+    
 
 }
 
@@ -132,6 +141,14 @@
     
     .header_section .header_top .contact_nav {
       justify-content: center;
+    }
+    
+    a.top-nav-link {
+      padding: 0 10px;
+    }
+    
+    a.top-nav-link {
+      font-size: 14px;
     }
 
 }
