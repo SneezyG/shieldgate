@@ -120,7 +120,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-image.webp);
   background-color: #20447a;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -349,6 +349,7 @@ a:focus {
 .slider_section .img-box img {
   width: 100%;
   max-height: 700px;
+  mix-blend-mode: hard-light;
 }
 
 .feature_section {
@@ -468,7 +469,7 @@ a:focus {
 }
 
 .professional_section {
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-image.webp);
   background-color: #20447a;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -485,6 +486,7 @@ a:focus {
 
 .professional_section .img-box img {
   width: 100%;
+  mix-blend-mode: hard-light;
 }
 
 .professional_section .detail-box h2 {
@@ -582,7 +584,7 @@ a:focus {
 
 .client_section {
   margin-top: 60px;
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-image.webp);
   background-color: #20447a;
   background-position: right bottom;
   background-repeat: no-repeat;
