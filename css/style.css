@@ -33,7 +33,7 @@ a.top-nav-link:hover {
 p {
   font-size: 19px;
   letter-spacing: 1px;
-  word-spacing: 1px;
+  word-spacing: 3px;
   line-height: 28px;
   text-align: justify;
   word-break: break-all;
@@ -608,6 +608,7 @@ a:focus {
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   padding: 25px;
+  background-color: rgba(10, 15, 67, 0.7);
 }
 
 .client_section .box .client_id {
@@ -639,6 +640,10 @@ a:focus {
 
 .client_section .box .client_id .client_detail .client_info i {
   color: #fbaf5d;
+}
+
+.client_section .box .client_id .client_detail .quote-icon {
+  color: #ffffff;
 }
 
 .client_section .box .client_text {
