@@ -344,6 +344,11 @@ a:focus {
 .slider_section .detail-box p {
   color: #ffffff;
   font-size: 19px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  background-color: rgba(10, 15, 67, 0.5);
 }
 
 .slider_section .img-box img {
@@ -498,6 +503,11 @@ a:focus {
 .professional_section .detail-box p {
   margin-top: 20px;
   color: #ffffff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  background-color: rgba(10, 15, 67, 0.5);
 }
 
 .professional_section .detail-box a {
